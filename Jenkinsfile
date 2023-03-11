@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label 'java-build-server'
+        label 'centos-jdk-17'
     }
     stages{
         stage('SCM checkout'){
